@@ -8,10 +8,11 @@ import {
   Subscribe,
   SuperQuality,
 } from "./sections";
+import Nav from "./components/Nav";
 
 const App = () => (
   <main className="relative">
-    {/* Pode ser que você quisesse incluir o componente <Nav /> aqui, mas ele não foi importado. Se for o caso, adicione-o. */}
+    <Nav />
     <section className="x1:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
